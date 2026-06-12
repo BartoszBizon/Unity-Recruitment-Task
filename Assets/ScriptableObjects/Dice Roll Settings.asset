@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bc00e88d2f9d1b4ca5df741f67e2bbd, type: 3}
+  m_Name: Dice Roll Settings
+  m_EditorClassIdentifier: 
+  _dragHeight: 2
+  _dragFollowSmoothTime: 0.06
+  _maxDragFollowSpeed: 300
+  _dragRotationImpulse: 200
+  _dragRotationInertiaDamping: 1
+  _maxDragAngularSpeed: 1800
+  _throwVelocityMultiplier: 0.75
+  _minimumThrowVelocity: 2.8
+  _gravityMultiplier: 2.5
+  _fallThreshold: -5
+  _stoppedLinearVelocityThreshold: 0.05
+  _stoppedAngularVelocityThreshold: 0.1
+  _stoppedDuration: 0.25
+  _returnToTableSmoothTime: 0.1
+  _autoRollHorizontalSpeedRange: {x: 20, y: 30}
+  _autoRollUpwardVelocityRange: {x: 9, y: 12}
+  _autoRollAngularSpeedRange: {x: 70, y: 90}
